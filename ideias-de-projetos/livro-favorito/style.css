@@ -1,0 +1,77 @@
+body {
+    background: #f7f8fa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.container-livro {
+    max-width: 900px;
+    margin: 48px auto 32px;
+    padding: 0 32px;
+}
+
+.titulo-livro {
+    font-size: 2rem;
+    margin-bottom: 1em;
+    color: #2d6a4f;
+    text-align: center;
+}
+
+.autor-livro {
+    color: #6c757d;
+    font-size: 1rem;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.layout-livro {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.capa-livro {
+    display: block;
+    max-width: 180px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.09);
+}
+
+.conteudo-resenha {
+    flex: 1 1 340px;
+    min-width: 0;
+}
+
+.titulo-secao {
+    color: #40916c;
+    margin: 2em 0 0.8em;
+    font-size: 1.1rem;
+}
+
+p {
+    line-height: 1.7;
+    margin-bottom: 1.2em;
+}
+
+.avaliacao-livro {
+    font-size: 1.1rem;
+    color: #f9a825;
+    font-weight: bold;
+    margin-top: 1.5em;
+}
+
+.lista-informacoes {
+    padding-left: 1.5em;
+    margin-bottom: 1.2em;
+    color: #495057;
+    font-size: 0.98rem;
+}
+
+.lista-informacoes li {
+    margin-bottom: 0.6em;
+}
