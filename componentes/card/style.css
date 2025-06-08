@@ -1,0 +1,45 @@
+.card {
+    max-width: 340px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin: 24px auto;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    color: #222;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    margin: 0 0 12px 0;
+}
+
+.card-button {
+    background: #2563eb;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.card-button:hover {
+    background: #1d4ed8;
+}
