@@ -1,0 +1,19 @@
+.botao-simples {
+    background-color: #4f8cff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(79, 140, 255, 0.15);
+}
+
+.botao-simples:hover,
+.botao-simples:focus {
+    background-color: #2563eb;
+    box-shadow: 0 4px 16px rgba(37, 99, 235, 0.18);
+    outline: none;
+}
